@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.24720.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{D3541ADA-2336-450A-AE1A-F0E1BF3B3214}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{DAB01586-17EA-4B06-AA2E-7011EA39BD5F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Interfaces", "Sample.Interfaces\Sample.Interfaces.csproj", "{B4BD59E3-8239-4F1B-8CCE-9A3D7BA8D792}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sample.Implements", "Sample.Implements\Sample.Implements.csproj", "{4EE0DF76-7BB8-441A-BF6D-8E0E739CE02B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Server", "Server\Server.csproj", "{9AD0FB47-6008-4FB8-B2FA-525BAC1C9B38}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3541ADA-2336-450A-AE1A-F0E1BF3B3214}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3541ADA-2336-450A-AE1A-F0E1BF3B3214}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3541ADA-2336-450A-AE1A-F0E1BF3B3214}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3541ADA-2336-450A-AE1A-F0E1BF3B3214}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B4BD59E3-8239-4F1B-8CCE-9A3D7BA8D792}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4BD59E3-8239-4F1B-8CCE-9A3D7BA8D792}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4BD59E3-8239-4F1B-8CCE-9A3D7BA8D792}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4BD59E3-8239-4F1B-8CCE-9A3D7BA8D792}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE0DF76-7BB8-441A-BF6D-8E0E739CE02B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE0DF76-7BB8-441A-BF6D-8E0E739CE02B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE0DF76-7BB8-441A-BF6D-8E0E739CE02B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE0DF76-7BB8-441A-BF6D-8E0E739CE02B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9AD0FB47-6008-4FB8-B2FA-525BAC1C9B38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9AD0FB47-6008-4FB8-B2FA-525BAC1C9B38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9AD0FB47-6008-4FB8-B2FA-525BAC1C9B38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9AD0FB47-6008-4FB8-B2FA-525BAC1C9B38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B4BD59E3-8239-4F1B-8CCE-9A3D7BA8D792} = {DAB01586-17EA-4B06-AA2E-7011EA39BD5F}
+		{4EE0DF76-7BB8-441A-BF6D-8E0E739CE02B} = {DAB01586-17EA-4B06-AA2E-7011EA39BD5F}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
+	EndGlobalSection
+EndGlobal
